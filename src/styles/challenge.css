@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ch-name,
+.challenge,
+.options {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.ch-name h1, .challenge p {
+    text-align: center;
+}
+
+.challenge p span {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    min-width: 50px;  
+    padding: 0 10px;  
+    background-color: #2d424e;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.options span {
+    display: inline-block;
+    padding: 1px 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px #121b20;
+    margin: 10px;
+}
+
+.check-ice {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#melding {
+    text-align: center;
+    margin: 20px;
+}
